@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiper</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1>Исторические даты</h1>
+            <div class="circle">
+                <div class="year">
+                    <span id="start">2015</span>
+                    <span id="end">2022</span>
+                </div>
+                <div class="buttons">
+                    <button class="btn" data-index="0" id="art">1</button>
+                    <button class="btn" data-index="1" id="cinema">2</button>
+                    <button class="btn" data-index="2" id="literature">3</button>
+                    <button class="btn" data-index="3" id="theatre">4</button>
+                    <button class="btn" data-index="4" id="music">5</button>
+                    <button class="btn" data-index="5" id="sciense">6</button>
+                </div>
+
+                <div class="slider-button-prev "></div>
+                <div class="slider-button-next"></div>
+                <div class="slider-pagination"></div>
+                <div class="slider-scrollbar"></div>
+            </div>
+        </div>
+
+        <div class="swiper poster-slider">
+            <div class="swiper-wrapper poster-slider__wrapper">
+                <div data-hash="slide-1" class="swiper-slide poster-slider__slide">
+                    <div class="title"></div>
+                    <p>
+                        13 сентября — частное солнечное затмение, видимое в Южной Африке и части Антарктиды
+                    </p>
+                </div>
+                <div data-hash="slide-2" class="swiper-slide poster-slider__slide">
+                    <div class="title"></div>
+                    <p>
+                        Телескоп «Хаббл» обнаружил самую удалённую из всех обнаруженных галактик, получившую
+                        обозначение GN-z11
+                    </p>
+
+                </div>
+                <div data-hash="slide-3" class="swiper-slide poster-slider__slide">
+                    <div class="title"></div>
+                    <p>
+                        Компания Tesla официально представила первый в мире электрический грузовик Tesla Semi
+                    </p>
+                </div>
+                <div data-hash="slide-4" class="swiper-slide poster-slider__slide">
+                    <div class="title"></div>
+                    <p>
+                        Старт космического аппарата Solar Probe Plus, предназначенного для изучения Солнца
+                    </p>
+                </div>
+                <div data-hash="slide-5" class="swiper-slide poster-slider__slide">
+                    <div class="title"></div>
+                    <p>Google объявил о создании 53-кубитного квантового компьютера</p>
+                </div>
+                <div data-hash="slide-6" class="swiper-slide poster-slider__slide">
+                    <div class="title"></div>
+                    <p>Корабль Crew Dragon вернулся на Землю из первого пилотируемого полёта</p>
+                </div>
+                <div data-hash="slide-7" class="swiper-slide poster-slider__slide">
+                    <div class="title">2021</div>
+                    <p>Создание вакцины от короновируса ("Covid - 19")</p>
+                </div>
+                <div data-hash="slide-8" class="swiper-slide poster-slider__slide">
+                    <div class="title">2022</div>
+                    <p>Старт научной работы орбитального телескопа "James Webb"</p>
+                </div>
+
+            </div>
+            <div class="swiper-button-prev "></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-scrollbar"></div>
+
+        </div>
+
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
